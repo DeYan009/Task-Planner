@@ -1,0 +1,385 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "RelWithDebInfo/TP.exe"
+		},
+		{
+			"path" : "RelWithDebInfo/TP.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"E:/qt2/6.9.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"E:/qt2/6.9.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"E:/qt2/6.9.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"E:/qt2/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"E:/qt2/6.9.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"E:/qt2/6.9.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 935,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 690,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 640,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 218,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 57,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 218,
+				"parent" : 8
+			},
+			{
+				"file" : 6,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 55,
+				"parent" : 15
+			},
+			{
+				"file" : 5,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 17
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-permissive-"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-utf-8"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "E:/university/Task-Planner/build"
+				},
+				{
+					"path" : "E:/university/Task-Planner"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "E:/university/Task-Planner/build/TP_autogen/include_RelWithDebInfo"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "E:/qt2/6.9.1/msvc2022_64/include/QtCore"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "E:/qt2/6.9.1/msvc2022_64/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "E:/qt2/6.9.1/msvc2022_64/mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/qt2/6.9.1/msvc2022_64/include/QtGui"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "E:/qt2/6.9.1/msvc2022_64/include/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6,
+					6
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "TP::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\qt2\\6.9.1\\msvc2022_64\\lib\\Qt6Widgets.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\qt2\\6.9.1\\msvc2022_64\\lib\\Qt6Gui.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "E:\\qt2\\6.9.1\\msvc2022_64\\lib\\Qt6Core.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "mpr.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "userenv.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "d3d11.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "dxgi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "dxguid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "d3d12.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "TP",
+	"nameOnDisk" : "TP.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/TP_autogen/mocs_compilation_RelWithDebInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "mainwindow.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

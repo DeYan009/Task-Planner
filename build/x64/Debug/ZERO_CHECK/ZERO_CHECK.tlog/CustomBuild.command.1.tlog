@@ -1,0 +1,10 @@
+^E:\UNIVERSITY\TASK-PLANNER\BUILD\CMAKEFILES\7EA8E832EAE81D8376FCCA84B82288A5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/university/Task-Planner -BE:/university/Task-Planner/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/university/Task-Planner/build/TP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
